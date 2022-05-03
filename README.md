@@ -14,6 +14,7 @@ https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 
 # settings
+import tkitScrapyMongoPipeline
 # 1、设置MongoDB 的数据库地址
 MONGO_URI = "mongodb://192.168.123.117:27017/"
 MONGO_DATABASE="test"
